@@ -2,6 +2,8 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+> unocss + nuxt3
+
 ## Setup
 
 Make sure to install the dependencies:
@@ -13,10 +15,12 @@ pnpm i
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on http://localhost:8989
 
 ```bash
 npm run dev
+# or
+npm run start
 ```
 
 ## Production

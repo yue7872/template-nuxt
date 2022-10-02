@@ -1,12 +1,25 @@
 {
-  "private": true,
+  "name": "[name]",
+  "version": "1.0.0",
+  "description": "nuxt app",
+  "main": "app.vue",
+  "keywords": [],
+  "author": "yue7872",
+  "license": "ISC",
+  "homepage": "https://github.com/yue7872/[name]",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yue7872/[name].git"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --open --port 8989",
+    "start": "nuxt dev --open --port 8989",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.1"
+    "@unocss/nuxt": "^0.37.3",
+    "nuxt": "3.0.0-rc.3"
   }
 }
