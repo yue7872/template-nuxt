@@ -2,16 +2,16 @@
 const route = useRoute();
 
 useHead({
-  title: "mynuxt",
+  title: 'mynuxt',
   link: [
     {
-      rel: "icon",
-      type: "image/x-icon",
-      href: "/favicon.png",
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.png',
     },
   ],
   htmlAttrs: {
-    lang: "zh-cn",
+    lang: 'zh-cn',
   },
 });
 </script>

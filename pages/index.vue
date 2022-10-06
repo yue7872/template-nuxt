@@ -2,8 +2,8 @@
 const route = useRoute();
 
 definePageMeta({
-  layout: "default",
-  title: "首页",
+  layout: 'default',
+  title: '首页',
 });
 useHead({
   title: `${route.meta.title} - index`,
@@ -11,6 +11,6 @@ useHead({
 </script>
 <template>
   <div font-serif>
-    <Hello></Hello>
+    <Hello />
   </div>
 </template>
