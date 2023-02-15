@@ -2,7 +2,6 @@
 export default {
   modules: [
     '@unocss/nuxt',
-    '@nuxt/devtools',
   ],
   unocss: {
     // presets
