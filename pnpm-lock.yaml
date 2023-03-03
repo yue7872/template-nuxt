@@ -2,20 +2,24 @@ lockfileVersion: 5.3
 
 specifiers:
   '@antfu/eslint-config': ^0.20.2
+  '@iconify/json': ^2.2.2
   '@unocss/nuxt': ^0.49.2
   eslint: ^8.24.0
   nuxt: 3.2.0
   typescript: ^4.8.4
   vite: ^3.1.4
+  vue: ^3.2.47
   webpack: ^5.74.0
 
 devDependencies:
   '@antfu/eslint-config': 0.20.7_eslint@8.24.0+typescript@4.8.4
+  '@iconify/json': 2.2.29
   '@unocss/nuxt': 0.49.4_vite@3.1.4+webpack@5.74.0
   eslint: 8.24.0
   nuxt: 3.2.0_eslint@8.24.0+typescript@4.8.4
   typescript: 4.8.4
   vite: 3.1.4
+  vue: 3.2.47
   webpack: 5.74.0
 
 packages:
@@ -327,11 +331,6 @@ packages:
 
   /@babel/helper-string-parser/7.19.4:
     resolution: {integrity: sha512-nHtDoQcuqFmwYNYPz3Rah5ph2p8PFeFCsZk9A/48dPc/rGocJ5J3hAAZ7pb76VWX3fZKu+uEr/FhH5jLx7umrw==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
-  /@babel/helper-validator-identifier/7.18.6:
-    resolution: {integrity: sha512-MmetCkz9ej86nJQV+sFCxoGGrUbU3q02kgLciwkrt9QqEB7cP39oKEY0PakknEO0Gu20SskMRi+AYZ3b1TpN9g==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -907,6 +906,13 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify/json/2.2.29:
+    resolution: {integrity: sha512-kNDXoVp5TCf74txUa6urGcs5/S5rdZ8j+FE3OjnEvkCUUBzxJShWljF03c0WYXbLVi2ifVPzWiDBjr00FyBVCA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 1.1.0
     dev: true
 
   /@iconify/types/2.0.0:
@@ -1892,7 +1898,7 @@ packages:
       '@vue/shared': 3.2.47
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.17
+      postcss: 8.4.21
       source-map: 0.6.1
     dev: true
 
@@ -3607,7 +3613,7 @@ packages:
     peerDependencies:
       eslint: '>=8.8.0'
     dependencies:
-      '@babel/helper-validator-identifier': 7.18.6
+      '@babel/helper-validator-identifier': 7.19.1
       ci-info: 3.3.0
       clean-regexp: 1.0.0
       eslint: 8.24.0
